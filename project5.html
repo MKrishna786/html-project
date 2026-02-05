@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Google Form</h1>
+    <fieldset>
+      <legend>Personal Information</legend>
+      <form>
+      <label for="fname">Firstname:</label>
+      <input type="text" id="fname" name="fname" required /><br /><br />
+
+      <label for="sname">Surname:</label>
+      <input type="text" id="sname" name="sname" required /><br /><br />
+
+      <label for="mnumber">Mobile number:</label>
+      <input type="tel" id="mnumber" name="mnumber" required /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+      /><br /><br />
+
+      <label for="cpassword">Confirm Password</label>
+      <input
+        type="password"
+        id="cpassword"
+        name="cpassword"
+        required
+      /><br /><br />
+
+      <label for="gender">Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label><br /><br />
+
+      <label for="country">Select Country:</label>
+      <select id="country" name="country">
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+        <option value="uk">UK</option>
+        <option value="australia">Australia</option>
+        <option value="india">India</option></select
+      ><br /><br />
+
+      <label for="file">Upload your file:</label>
+      <input type="file" id="file" name="file" /><br /><br />
+
+      <input type="reset" value="Reset" />
+
+      </fieldset>
+      <fieldset>  
+        <legend>Course Information</legend>
+      <label for="course">Choose a course:</label>
+      <select id="course" name="course">
+        <option value="webdev">Web Development</option>
+        <option value="datasci">Data Science</option>
+        <option value="cybersec">Cyber Security</option>
+        <option value="aidev">AI Development</option></select
+      ><br /><br />
+
+      <label for="dmode">Delivery mode</label>
+      <input type="radio" id="online" name="dmode" value="online" />
+      <label for="online">Online</label>
+      <input type="radio" id="offline" name="dmode" value="offline" />
+      <label for="offline">Offline</label><br /><br />
+
+      <label for="iname">INSTITUTE NAME:</label>
+      <input
+        type="text"
+        id="iname"
+        name="iname"
+        value="TAP ACADEMY"
+      /><br /><br />
+
+      <label for="level">Coding knowledge level:</label>
+      <input
+        type="range"
+        id="level"
+        name="level"
+        min="1"
+        max="10"
+      /><br /><br />
+
+      <label for="comments">Additional Comments:</label><br />
+      <textarea id="comments" name="comments" rows="4" cols="50"></textarea
+      ><br /><br />
+      <input type="submit" value="Submit" />
+
+
+      </form>
+  </body>
+</html>
